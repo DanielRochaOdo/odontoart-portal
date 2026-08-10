@@ -18,10 +18,13 @@ type Point = { x: number; y: number };
 
 const originalMinHeights = new WeakMap<HTMLElement, OriginalMinHeight>();
 
+function asElement(target: EventTarget | Node | null): Element | null {
+  if (!target || typeof (target as Element).closest !== 'function') return null;
+  return target as Element;
+}
+
 function blockEditorNavigation(event: MouseEvent) {
-  const target = event.target;
-  if (!target || typeof (target as Element).closest !== 'function') return;
-  const link = (target as Element).closest('a');
+  const link = asElement(event.target)?.closest('a');
   if (link) event.preventDefault();
 }
 
@@ -112,7 +115,7 @@ function expandParentsForAbsoluteChildren(frameDocument: Document, nodes: Map<st
 function getCanvasViewportWidth(frameDocument: Document): number | '100%' {
   const canvas = frameDocument.querySelector<HTMLElement>('#puck-canvas-root');
   if (canvas) {
-    const width = canvas.clientWidth || Number.parseFloat(getComputedStyle(canvas).width);
+    const width = canvas.clientWidth || Number.parseFloat(frameDocument.defaultView?.getComputedStyle(canvas).width || '');
     if (Number.isFinite(width) && width > 0) return width;
   }
   const width = frameDocument.documentElement.clientWidth;
@@ -198,15 +201,15 @@ function mutationTouchesBuilder(records: MutationRecord[]) {
   return records.some(record => {
     const changed = [...record.addedNodes, ...record.removedNodes];
     return changed.some(node => {
-      if (!(node instanceof Element)) return false;
-      return node.matches('[data-puck-component]') || Boolean(node.querySelector('[data-puck-component]'));
+      const element = node.nodeType === 1 ? node as Element : null;
+      if (!element) return false;
+      return element.matches('[data-puck-component]') || Boolean(element.querySelector('[data-puck-component]'));
     });
   });
 }
 
 function isEditableTarget(target: EventTarget | null) {
-  if (!(target instanceof Element)) return false;
-  return Boolean(target.closest('input, textarea, select, [contenteditable="true"], [role="textbox"]'));
+  return Boolean(asElement(target)?.closest('input, textarea, select, [contenteditable="true"], [role="textbox"]'));
 }
 
 function visibleComponentElements(frameDocument: Document) {
@@ -334,7 +337,7 @@ export default function PageEditor({ page }: { page: PageRecord }) {
 
       const onPointerDown = (event: PointerEvent) => {
         if (event.button !== 0) return;
-        const target = event.target instanceof Element ? event.target : null;
+        const target = asElement(event.target);
         if (!target || target.closest('.puck-resize-handle, .puck-move-handle')) return;
 
         const component = target.closest<HTMLElement>('[data-puck-component]');
@@ -344,8 +347,10 @@ export default function PageEditor({ page }: { page: PageRecord }) {
             const current = selectedIdsRef.current;
             const next = current.includes(id) ? current.filter(item => item !== id) : [...current, id];
             setStudioSelection(next, next.includes(id) ? id : next[0] || null);
-          } else {
+          } else if (!selectedIdsRef.current.includes(id)) {
             setStudioSelection([id], id);
+          } else {
+            setStudioSelection(selectedIdsRef.current, id);
           }
           return;
         }
