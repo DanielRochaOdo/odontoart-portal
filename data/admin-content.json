@@ -1,0 +1,1787 @@
+{
+  "banners": [
+    {
+      "id": "banner-home-1",
+      "title": "Clube de Vantagens Odontoart",
+      "imageUrl": "https://i0.wp.com/odontoart.com/wp-content/uploads/2024/03/Objeto-Inteligente-de-Vetor-copiar.png",
+      "link": "https://clube.odontoart.com",
+      "active": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "system-home",
+      "title": "Página Inicial",
+      "slug": "home",
+      "description": "Conteúdo principal da página inicial do site.",
+      "status": "published",
+      "kind": "SYSTEM",
+      "draftContent": {
+        "root": {
+          "props": {}
+        },
+        "content": [
+          {
+            "type": "EditableHero",
+            "props": {
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-hero-eyebrow",
+                    "text": "Cuidado que acompanha você",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-hero-title",
+                    "text": "Somos especialistas",
+                    "tag": "h1",
+                    "size": "5xl",
+                    "align": "left",
+                    "color": "secondary",
+                    "advanced": {
+                      "enabled": false
+                    },
+                    "editorPosition": "absolute",
+                    "editorX": 0,
+                    "editorY": 35,
+                    "editorWidth": 420,
+                    "editorHeight": 92
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-hero-button",
+                    "text": "Faça seu Plano",
+                    "url": "/ecommerce-fc/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "home-hero-highlight",
+                    "text": "em Planos Odontológicos.",
+                    "size": "lg",
+                    "align": "left",
+                    "color": "accent"
+                  }
+                }
+              ],
+              "id": "home-hero",
+              "image": "https://i0.wp.com/odontoart.com/wp-content/uploads/2024/03/positive-emotions-close-up-young-good-looking-dark-skinned-male-with-afro-hairstyle-white-t-shirt-red-shirt-smiling-with-teeth-chatting-with-friend-smartphone.png",
+              "editorPosition": "absolute",
+              "editorX": 686,
+              "editorY": 22,
+              "editorWidth": 320,
+              "editorHeight": 888
+            }
+          },
+          {
+            "type": "Section",
+            "props": {
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-benefits-eyebrow",
+                    "text": "Por que escolher a Odontoart?",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-benefits-title",
+                    "text": "Vantagens para você e sua família",
+                    "tag": "h2",
+                    "size": "3xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Columns",
+                  "props": {
+                    "content": [
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-3-number",
+                                "text": "03",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-3-title",
+                                "text": "Urgência 24h",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-3-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-3",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "editorPosition": "absolute",
+                          "editorX": 0,
+                          "editorY": 264,
+                          "editorWidth": 262,
+                          "editorHeight": 219
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-5-number",
+                                "text": "05",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-5-title",
+                                "text": "Tratamento planejado e com hora marcada",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-5-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-5",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-1-number",
+                                "text": "01",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-1-title",
+                                "text": "Clube de Vantagens Odontoart",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-1-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-1",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-4-number",
+                                "text": "04",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-4-title",
+                                "text": "Identificação biométrica",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-4-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-4",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-2-number",
+                                "text": "02",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-2-title",
+                                "text": "Ampla rede de clínicas próprias e credenciadas",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-2-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-2",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "editorPosition": "absolute",
+                          "editorX": 144,
+                          "editorY": 0,
+                          "editorWidth": 262,
+                          "editorHeight": 242
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-6-number",
+                                "text": "06",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-6-title",
+                                "text": "Marcação de consultas on-line",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-6-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-6",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-7-number",
+                                "text": "07",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-7-title",
+                                "text": "Utilização do plano sem necessidade de perícia",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-7-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ],
+                          "id": "home-benefits-item-7",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "editorPosition": "absolute",
+                          "editorX": 748,
+                          "editorY": 264,
+                          "editorWidth": 266,
+                          "editorHeight": 276
+                        }
+                      }
+                    ],
+                    "id": "home-benefits-columns",
+                    "columns": "4",
+                    "gap": "sm",
+                    "editorPosition": "absolute",
+                    "editorX": 149,
+                    "editorY": 0,
+                    "editorWidth": 1098,
+                    "editorHeight": 945
+                  }
+                }
+              ],
+              "id": "home-benefits",
+              "background": "white",
+              "padding": "lg",
+              "minHeight": "auto",
+              "width": "full",
+              "aspectRatio": "auto",
+              "radius": "none",
+              "border": false,
+              "align": "left"
+            }
+          },
+          {
+            "type": "NetworkBanner",
+            "props": {
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-network-eyebrow",
+                    "text": "Onde você estiver",
+                    "align": "left",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-network-title",
+                    "text": "Encontre especialistas em nossa rede credenciada por todo o Brasil",
+                    "tag": "h2",
+                    "size": "3xl",
+                    "align": "left",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "Link",
+                  "props": {
+                    "id": "home-network-link",
+                    "text": "Ver rede completa",
+                    "url": "/rede-credenciada/",
+                    "target": "_self",
+                    "color": "accent",
+                    "underline": false
+                  }
+                }
+              ],
+              "id": "home-network",
+              "metric": "+ 4.000"
+            }
+          },
+          {
+            "type": "AudiencePanels",
+            "props": {
+              "familyContent": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-audience-family-eyebrow",
+                    "text": "Para você",
+                    "align": "left",
+                    "color": "accent"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-audience-family-title",
+                    "text": "Planos para você e sua família!",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-audience-family-button",
+                    "text": "Faça seu Plano →",
+                    "url": "/ecommerce-fc/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ],
+              "businessContent": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-audience-business-eyebrow",
+                    "text": "Para empresas",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-audience-business-title",
+                    "text": "Planos para sua Empresa!",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-audience-business-button",
+                    "text": "Conheça os planos →",
+                    "url": "/planos-empresa/",
+                    "target": "_self",
+                    "variant": "outline",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ],
+              "id": "home-audience"
+            }
+          },
+          {
+            "type": "Image",
+            "props": {
+              "src": "https://asponlovmpfacfueieus.supabase.co/storage/v1/object/public/media/editor/2026-08-07/3349f0db-490e-479c-b348-c01a42288ea2.png",
+              "alt": "",
+              "width": "full",
+              "radius": "md",
+              "link": "",
+              "advanced": {
+                "enabled": false,
+                "title": "Código avançado",
+                "html": "",
+                "css": "",
+                "js": "",
+                "height": 320
+              },
+              "id": "Image-1feed26c-fc7c-4a83-a21d-aa71effc72a4",
+              "editorWidth": 567,
+              "editorHeight": 24,
+              "editorPosition": "absolute",
+              "editorX": 694,
+              "editorY": 990
+            }
+          },
+          {
+            "type": "AppPromo",
+            "props": {
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-app-eyebrow",
+                    "text": "Tecnologia para simplificar",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-app-title",
+                    "text": "Baixe nosso aplicativo Odontoart",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "home-app-text",
+                    "text": "Marque consultas com rapidez e facilidade. Com o App da Odontoart você tem tudo na mão.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Link",
+                  "props": {
+                    "id": "home-app-link",
+                    "text": "Saiba como baixar",
+                    "url": "/passo-a-passo-app/",
+                    "target": "_self",
+                    "color": "accent",
+                    "underline": false
+                  }
+                }
+              ],
+              "id": "home-app"
+            }
+          }
+        ],
+        "zones": {}
+      },
+      "publishedContent": {
+        "root": {},
+        "content": [
+          {
+            "type": "EditableHero",
+            "props": {
+              "id": "home-hero",
+              "image": "https://i0.wp.com/odontoart.com/wp-content/uploads/2024/03/positive-emotions-close-up-young-good-looking-dark-skinned-male-with-afro-hairstyle-white-t-shirt-red-shirt-smiling-with-teeth-chatting-with-friend-smartphone.png",
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-hero-eyebrow",
+                    "text": "Cuidado que acompanha você",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-hero-title",
+                    "text": "Somos especialistas",
+                    "tag": "h1",
+                    "size": "5xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "home-hero-highlight",
+                    "text": "em Planos\nOdontológicos.",
+                    "size": "lg",
+                    "align": "left",
+                    "color": "accent"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-hero-button",
+                    "text": "Faça seu Plano",
+                    "url": "/ecommerce-fc/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Section",
+            "props": {
+              "id": "home-benefits",
+              "background": "white",
+              "padding": "lg",
+              "minHeight": "auto",
+              "width": "full",
+              "aspectRatio": "auto",
+              "radius": "none",
+              "border": false,
+              "align": "left",
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-benefits-eyebrow",
+                    "text": "Por que escolher a Odontoart?",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-benefits-title",
+                    "text": "Vantagens para você e sua família",
+                    "tag": "h2",
+                    "size": "3xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Columns",
+                  "props": {
+                    "id": "home-benefits-columns",
+                    "columns": "4",
+                    "gap": "sm",
+                    "content": [
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-1",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-1-number",
+                                "text": "01",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-1-title",
+                                "text": "Clube de Vantagens Odontoart",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-1-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-2",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-2-number",
+                                "text": "02",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-2-title",
+                                "text": "Ampla rede de clínicas próprias e credenciadas",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-2-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-3",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-3-number",
+                                "text": "03",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-3-title",
+                                "text": "Urgência 24h",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-3-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-4",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-4-number",
+                                "text": "04",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-4-title",
+                                "text": "Identificação biométrica",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-4-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-5",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-5-number",
+                                "text": "05",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-5-title",
+                                "text": "Tratamento planejado e com hora marcada",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-5-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-6",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-6-number",
+                                "text": "06",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-6-title",
+                                "text": "Marcação de consultas on-line",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-6-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Section",
+                        "props": {
+                          "id": "home-benefits-item-7",
+                          "background": "white",
+                          "padding": "md",
+                          "minHeight": "sm",
+                          "width": "full",
+                          "aspectRatio": "auto",
+                          "radius": "md",
+                          "border": true,
+                          "align": "left",
+                          "content": [
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-7-number",
+                                "text": "07",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "accent"
+                              }
+                            },
+                            {
+                              "type": "Heading",
+                              "props": {
+                                "id": "home-benefits-item-7-title",
+                                "text": "Utilização do plano sem necessidade de perícia",
+                                "tag": "h3",
+                                "size": "lg",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "props": {
+                                "id": "home-benefits-item-7-description",
+                                "text": "Mais tranquilidade e acesso ao cuidado que você merece.",
+                                "size": "sm",
+                                "align": "left",
+                                "color": "secondary"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "NetworkBanner",
+            "props": {
+              "id": "home-network",
+              "metric": "+ 4.000",
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-network-eyebrow",
+                    "text": "Onde você estiver",
+                    "align": "left",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-network-title",
+                    "text": "Encontre especialistas em nossa rede credenciada por todo o Brasil",
+                    "tag": "h2",
+                    "size": "3xl",
+                    "align": "left",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "Link",
+                  "props": {
+                    "id": "home-network-link",
+                    "text": "Ver rede completa",
+                    "url": "/rede-credenciada/",
+                    "target": "_self",
+                    "color": "accent",
+                    "underline": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "AudiencePanels",
+            "props": {
+              "id": "home-audience",
+              "businessContent": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-audience-business-eyebrow",
+                    "text": "Para empresas",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-audience-business-title",
+                    "text": "Planos para sua Empresa!",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-audience-business-button",
+                    "text": "Conheça os planos →",
+                    "url": "/planos-empresa/",
+                    "target": "_self",
+                    "variant": "outline",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ],
+              "familyContent": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-audience-family-eyebrow",
+                    "text": "Para você",
+                    "align": "left",
+                    "color": "accent"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-audience-family-title",
+                    "text": "Planos para você e sua família!",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "home-audience-family-button",
+                    "text": "Faça seu Plano →",
+                    "url": "/ecommerce-fc/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "AppPromo",
+            "props": {
+              "id": "home-app",
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "home-app-eyebrow",
+                    "text": "Tecnologia para simplificar",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "home-app-title",
+                    "text": "Baixe nosso aplicativo Odontoart",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "home-app-text",
+                    "text": "Marque consultas com rapidez e facilidade. Com o App da Odontoart você tem tudo na mão.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Link",
+                  "props": {
+                    "id": "home-app-link",
+                    "text": "Saiba como baixar",
+                    "url": "/passo-a-passo-app/",
+                    "target": "_self",
+                    "color": "accent",
+                    "underline": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "seoTitle": "",
+      "seoDescription": "",
+      "createdAt": "2026-08-07T12:25:00.058Z",
+      "updatedAt": "2026-08-10T12:45:41.398Z",
+      "publishedAt": "2026-08-07T12:25:00.058Z"
+    },
+    {
+      "id": "c5b88617-033d-4e83-be45-60ad02ac1fc5",
+      "title": "teste",
+      "slug": "pag-teste",
+      "description": "",
+      "status": "draft",
+      "kind": "CUSTOM",
+      "draftContent": {
+        "root": {
+          "props": {}
+        },
+        "content": [
+          {
+            "type": "Container",
+            "props": {
+              "content": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "id": "Image-17d8e90d-24b2-4704-bfeb-f383abb3add0",
+                    "src": "",
+                    "alt": "",
+                    "width": "auto",
+                    "radius": "md",
+                    "link": "",
+                    "advanced": {
+                      "enabled": false,
+                      "title": "Código avançado",
+                      "html": "",
+                      "css": "",
+                      "js": "",
+                      "height": 320
+                    },
+                    "editorPosition": "absolute",
+                    "editorX": 850,
+                    "editorY": 90,
+                    "editorWidth": 326,
+                    "editorHeight": 573
+                  }
+                }
+              ],
+              "width": "large",
+              "align": "center",
+              "advanced": {
+                "enabled": false,
+                "title": "Código avançado",
+                "html": "",
+                "css": "",
+                "js": "",
+                "height": 320
+              },
+              "id": "Container-dd5b77c0-42e9-4344-90aa-34f1e22e9b2f",
+              "editorWidth": 1280,
+              "editorHeight": 831
+            }
+          }
+        ],
+        "zones": {}
+      },
+      "publishedContent": null,
+      "seoTitle": "",
+      "seoDescription": "",
+      "createdAt": "2026-08-07T18:28:44.358Z",
+      "updatedAt": "2026-08-10T12:02:32.781Z",
+      "publishedAt": null
+    },
+    {
+      "id": "system-planos-empresa",
+      "title": "Planos para sua empresa",
+      "slug": "planos-empresa",
+      "description": "Cuidar do sorriso da sua equipe é investir em bem-estar, produtividade e qualidade de vida.",
+      "status": "published",
+      "kind": "SYSTEM",
+      "draftContent": {
+        "root": {
+          "props": {}
+        },
+        "content": [
+          {
+            "type": "Hero",
+            "props": {
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "planos-empresa-eyebrow",
+                    "text": "Odontoart Empresas",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "planos-empresa-title",
+                    "text": "Planos para sua empresa",
+                    "tag": "h1",
+                    "size": "5xl",
+                    "align": "left",
+                    "color": "secondary",
+                    "editorWidth": 493,
+                    "editorHeight": 235
+                  }
+                },
+                {
+                  "type": "Image",
+                  "props": {
+                    "src": "https://asponlovmpfacfueieus.supabase.co/storage/v1/object/public/media/editor/2026-08-10/3411ec97-6d34-4fc0-9c68-a15278186f92.png",
+                    "alt": "",
+                    "width": "auto",
+                    "radius": "md",
+                    "link": "",
+                    "advanced": {
+                      "enabled": false,
+                      "title": "Código avançado",
+                      "html": "",
+                      "css": "",
+                      "js": "",
+                      "height": 320
+                    },
+                    "id": "Image-7c64bf8c-3e3c-4fe9-96c6-1706a88f4045",
+                    "editorPosition": "absolute",
+                    "editorX": 397,
+                    "editorY": 0,
+                    "editorWidth": 706,
+                    "editorHeight": 522
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-intro",
+                    "text": "Cuidar do sorriso da sua equipe é investir em bem-estar, produtividade e qualidade de vida.",
+                    "size": "lg",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "planos-empresa-button",
+                    "text": "Fale conosco",
+                    "url": "/contato/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ],
+              "id": "planos-empresa-hero",
+              "image": "",
+              "layout": "left"
+            }
+          },
+          {
+            "type": "Section",
+            "props": {
+              "content": [
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "planos-empresa-content-title",
+                    "text": "Conteúdo da página",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-0",
+                    "text": "Planos sob medida para todos os tamanhos de empresa.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-1",
+                    "text": "Rede ampla de clínicas próprias e credenciadas.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-2",
+                    "text": "Atendimento próximo e gestão simples para o RH.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                }
+              ],
+              "id": "planos-empresa-content",
+              "background": "white",
+              "padding": "lg",
+              "minHeight": "auto",
+              "align": "left"
+            }
+          }
+        ],
+        "zones": {}
+      },
+      "publishedContent": {
+        "root": {},
+        "content": [
+          {
+            "type": "Hero",
+            "props": {
+              "id": "planos-empresa-hero",
+              "image": "",
+              "layout": "left",
+              "content": [
+                {
+                  "type": "Eyebrow",
+                  "props": {
+                    "id": "planos-empresa-eyebrow",
+                    "text": "Odontoart Empresas",
+                    "align": "left",
+                    "color": "primary"
+                  }
+                },
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "planos-empresa-title",
+                    "text": "Planos para sua empresa",
+                    "tag": "h1",
+                    "size": "5xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-intro",
+                    "text": "Cuidar do sorriso da sua equipe é investir em bem-estar, produtividade e qualidade de vida.",
+                    "size": "lg",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "id": "planos-empresa-button",
+                    "text": "Fale conosco",
+                    "url": "/contato/",
+                    "target": "_self",
+                    "variant": "primary",
+                    "size": "md",
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Section",
+            "props": {
+              "id": "planos-empresa-content",
+              "background": "white",
+              "padding": "lg",
+              "minHeight": "auto",
+              "align": "left",
+              "content": [
+                {
+                  "type": "Heading",
+                  "props": {
+                    "id": "planos-empresa-content-title",
+                    "text": "Conteúdo da página",
+                    "tag": "h2",
+                    "size": "2xl",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-0",
+                    "text": "Planos sob medida para todos os tamanhos de empresa.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-1",
+                    "text": "Rede ampla de clínicas próprias e credenciadas.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "planos-empresa-section-2",
+                    "text": "Atendimento próximo e gestão simples para o RH.",
+                    "size": "base",
+                    "align": "left",
+                    "color": "secondary"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "seoTitle": "",
+      "seoDescription": "",
+      "createdAt": "2026-08-10T11:37:32.581Z",
+      "updatedAt": "2026-08-10T11:41:09.467Z",
+      "publishedAt": "2026-08-10T11:37:32.581Z"
+    },
+    {
+      "id": "207e7f6d-f06f-48a8-9455-99e348beedf7",
+      "title": "pagina teste",
+      "slug": "pagina-teste",
+      "description": "",
+      "status": "draft",
+      "kind": "CUSTOM",
+      "draftContent": {
+        "root": {
+          "props": {}
+        },
+        "content": [
+          {
+            "type": "Container",
+            "props": {
+              "content": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "src": "https://asponlovmpfacfueieus.supabase.co/storage/v1/object/public/media/editor/2026-08-10/635e4f01-7c15-4661-8714-c1fd14ec1f88.jpeg",
+                    "alt": "",
+                    "width": "full",
+                    "radius": "md",
+                    "link": "",
+                    "advanced": {
+                      "enabled": false,
+                      "title": "Código avançado",
+                      "html": "",
+                      "css": "",
+                      "js": "",
+                      "height": 320
+                    },
+                    "id": "Image-057762b1-018f-467d-9e33-8336a06ba24e",
+                    "editorWidth": 1280,
+                    "editorHeight": 410
+                  }
+                }
+              ],
+              "width": "large",
+              "align": "center",
+              "layoutDirection": "column",
+              "layoutWrap": "nowrap",
+              "layoutJustify": "start",
+              "layoutAlignItems": "stretch",
+              "layoutGap": 0,
+              "advanced": {
+                "enabled": false,
+                "title": "Código avançado",
+                "html": "",
+                "css": "",
+                "js": "",
+                "height": 320
+              },
+              "id": "Container-4c253a0a-0877-4492-90d5-f685349be8b5",
+              "editorWidth": 1280,
+              "editorHeight": 726
+            }
+          }
+        ],
+        "zones": {}
+      },
+      "publishedContent": null,
+      "seoTitle": "",
+      "seoDescription": "",
+      "createdAt": "2026-08-10T11:41:26.359Z",
+      "updatedAt": "2026-08-10T12:53:46.606Z",
+      "publishedAt": null
+    }
+  ],
+  "webhooks": [],
+  "global": {
+    "preset": "completo",
+    "header": {
+      "topbarText": "Atendimento:",
+      "topbarPhone": "85 3133.9162",
+      "greeting": "Olá, visitante",
+      "customerLabel": "Área do cliente",
+      "customerHref": "https://corporativo.odontoartonline.com.br",
+      "menu": [
+        {
+          "label": "Início",
+          "href": "/",
+          "enabled": true
+        },
+        {
+          "label": "Clube de Vantagens",
+          "href": "https://clube.odontoart.com",
+          "enabled": true
+        },
+        {
+          "label": "Conheça nossos Planos",
+          "href": "/lista-de-servicos/",
+          "enabled": true
+        },
+        {
+          "label": "Planos Empresa",
+          "href": "/planos-empresa/",
+          "enabled": true
+        },
+        {
+          "label": "Rede Credenciada",
+          "href": "/rede-credenciada/",
+          "enabled": true
+        },
+        {
+          "label": "Sobre nós",
+          "href": "/sobre-nos/",
+          "enabled": true
+        },
+        {
+          "label": "Trabalhe Conosco",
+          "href": "/trabalhe-conosco/",
+          "enabled": true
+        }
+      ],
+      "services": [
+        {
+          "label": "Fale Conosco",
+          "href": "/contato/",
+          "enabled": true
+        },
+        {
+          "label": "Passo a Passo APP",
+          "href": "/passo-a-passo-app/",
+          "enabled": true
+        },
+        {
+          "label": "ANS",
+          "href": "/ans/",
+          "enabled": true
+        },
+        {
+          "label": "Blog",
+          "href": "/blog/",
+          "enabled": true
+        }
+      ],
+      "servicesLabel": "Mais Serviços",
+      "ctaLabel": "Faça seu Plano",
+      "ctaHref": "/ecommerce-fc/"
+    },
+    "footer": {
+      "description": "Somos especialistas em planos odontológicos.",
+      "columns": [
+        {
+          "title": "Atendimento",
+          "items": [
+            {
+              "label": "Informações e solicitações",
+              "href": "tel:8531339162"
+            },
+            {
+              "label": "85 3133.9162",
+              "href": "tel:8531339162"
+            },
+            {
+              "label": "WhatsApp",
+              "href": "https://wa.me/558532924444"
+            },
+            {
+              "label": "85 3292.4444",
+              "href": "https://wa.me/558532924444"
+            }
+          ]
+        },
+        {
+          "title": "Links úteis",
+          "items": [
+            {
+              "label": "Perguntas frequentes",
+              "href": "/perguntas-frequentes/"
+            },
+            {
+              "label": "Blog",
+              "href": "/blog/"
+            },
+            {
+              "label": "Fale conosco",
+              "href": "/contato/"
+            }
+          ]
+        }
+      ],
+      "copyright": "© 2026 Odontoart. Todos os direitos reservados."
+    }
+  }
+}

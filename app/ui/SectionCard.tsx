@@ -1,0 +1,1 @@
+export default function SectionCard({ children, index }: { children: React.ReactNode; index: number }) { return <article className="feature-card"><span>0{index + 1}</span><div>{children}</div></article> }

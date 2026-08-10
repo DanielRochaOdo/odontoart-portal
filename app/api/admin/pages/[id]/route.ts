@@ -1,0 +1,6 @@
+import { NextResponse } from 'next/server';
+import { isAdminRequest } from '../../../../../lib/admin-auth';
+import { getPage, savePage } from '../../../../../app/page-builder/service';
+import { validatePageInput } from '../../../../../app/page-builder/schemas';
+
+export async function PUT(request: Request, { params }: { params: Promise<{ id: string }> }) { if (!(await isAdminRequest())) return NextResponse.json({ error: 'Não autorizado' }, { status: 401 }); const page = await getPage((await params).id); if (!page) return NextResponse.json({ error: 'Página não encontrada' }, { status: 404 }); const body = await request.json().catch(() => null) as { draftContent?: unknown; publish?: boolean } | null; const result = validatePageInput({ ...page, draftContent: body?.draftContent }); if (!result.ok) return NextResponse.json({ error: result.error }, { status: 400 }); const publishedAt = body?.publish ? new Date().toISOString() : page.publishedAt; const updated = await savePage({ ...page, draftContent: result.value.draftContent, status: body?.publish ? 'published' : page.status, publishedContent: body?.publish ? result.value.draftContent : page.publishedContent, publishedAt }); return NextResponse.json(updated); }
