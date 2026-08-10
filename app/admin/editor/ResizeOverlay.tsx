@@ -137,6 +137,11 @@ function findNodeInData(data: Data, id: string) {
   return null;
 }
 
+function asElement(target: EventTarget | null): Element | null {
+  if (!target || typeof (target as Element).closest !== 'function') return null;
+  return target as Element;
+}
+
 function stopOverlayEvent(event: ReactPointerEvent<HTMLElement>) {
   event.preventDefault();
   event.stopPropagation();
@@ -480,7 +485,7 @@ export default function ResizeOverlay({
   }, [componentId, visualSelected, data]);
 
   useLayoutEffect(() => {
-    if (!activePrimary) return;
+    if (!visualSelected) return;
     const surface = surfaceRef.current;
     if (!surface) return;
     const element = getElement(surface.ownerDocument, componentId);
@@ -491,7 +496,7 @@ export default function ResizeOverlay({
 
     const handleElementPointerDown = (event: PointerEvent) => {
       if (event.button !== 0 || event.shiftKey || event.metaKey || event.ctrlKey) return;
-      const target = event.target instanceof Element ? event.target : null;
+      const target = asElement(event.target);
       const eventElement = target || surface.ownerDocument.elementFromPoint(event.clientX, event.clientY);
       const closestComponent = eventElement?.closest<HTMLElement>('[data-puck-component]');
       if (closestComponent?.getAttribute('data-puck-component') !== componentId) return;
@@ -509,7 +514,7 @@ export default function ResizeOverlay({
       view?.removeEventListener('pointerdown', handleElementPointerDown, true);
       element.style.touchAction = previousTouchAction;
     };
-  }, [activePrimary, componentId, data]);
+  }, [componentId, data, visualSelected]);
 
   useLayoutEffect(() => {
     if (!activePrimary) return;
